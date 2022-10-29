@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 20vh;
+  min-height: 144px;
+  background-color: #9f1239;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.main {
+  height: 80vh;
+  background-color: #f9a8d4;
+}
