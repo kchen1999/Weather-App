@@ -12,11 +12,67 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #f9a8d4;
+  font-weight: bold;
   font-size: 2.5rem;
 }
 
 .main {
   height: 80vh;
   background-color: #f9a8d4;
+  padding: 38px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
+.form-container {
+  display: flex;
+  gap: 12px;
+}
+
+#city {
+  border-radius: 4px;
+  min-width: 200px; 
+  border-style: none;
+  padding-left: 8px;
+}
+
+.weather-data {
+  padding: 24px;
+  background-color: #9f1239;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  width: 300px;
+  height: 300px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px; 
+}
+
+button {
+  border-radius: 4px;
+  background-color: #9f1239;
+  color: white;
+  padding: 6px;
+  font: 6rem;
+  border-style: none;
+}
+
+.city {
+  color: #f9a8d4;
+  font-size: 2rem;
+}
+
+.temp {
+  font-size: 2rem; 
+  color: white;
+}
+
+.feels-like, .wind, .humidity {
+  font-size: 1rem; 
+  color: white;
 }
